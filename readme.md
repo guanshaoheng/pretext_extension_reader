@@ -9,7 +9,7 @@ Usage:
 ```python
 from genome_class import Genome_PY
 
-pretext_file_path:str = ...
+pretext_file_path:str = ... # path to .pretext file
 genome_py = Genome_PY(pretext_file_path)
 graph_name_list = genome_py.get_graph_names()
 graph_data_list = genome_py.get_graph_data()
